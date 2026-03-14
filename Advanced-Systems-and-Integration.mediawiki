@@ -1,0 +1,38 @@
+= Advanced Systems and Integration =
+
+== Boss and Combat Systems ==
+StarScript supports custom boss workflows including:
+* Multi-phase boss behavior tied to HP thresholds.
+* Story node transitions during boss encounters.
+* Arena and consequence-oriented progression hooks.
+
+== Relics and Progression ==
+Relic systems can model progression states (for example dormant -> awakened -> corrupted) and tie them to story-driven events and item behavior.
+
+== World and Discovery ==
+Story logic can react to exploration and world signals:
+* Biomes, structures, regions
+* Time/day and weather conditions
+* Position and proximity thresholds
+
+== GUI and Presentation ==
+Use story node style fields and scene effects for presentation:
+* Text speed and placement modes
+* Panel and border styling
+* Overlays, transitions, and screenshake
+
+== Integration Points ==
+Typical Java integration surfaces:
+* ''StoryEngine'' for activation/progression
+* ''StoryStateManager'' for player state, flags, and variables
+* Resource/data loading flow via story loader components
+
+== Performance Guidance ==
+* Prefer event-based triggers where possible.
+* Keep trigger sets focused to current progression stage.
+* Avoid unnecessary per-tick heavy checks.
+* Use slot/state APIs instead of ad-hoc persistence.
+
+== Next ==
+Return to [[Home|Home]] for navigation, or use [[Authoring-Stories-in-JSON|Authoring Stories in JSON]] for data design patterns.
+

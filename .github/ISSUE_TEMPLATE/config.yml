@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: StarScript Documentation
+    url: https://github.com/Lunarbit-dev/starscripttracker/wiki
+    about: Check the documentation before opening an issue
