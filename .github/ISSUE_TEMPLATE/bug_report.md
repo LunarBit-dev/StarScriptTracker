@@ -1,10 +1,3 @@
-# Bug Report Template
-
-Create a file:
-
-`.github/ISSUE_TEMPLATE/bug_report.md`
-
-````md
 ---
 name: Bug Report
 about: Report something that isn't working as expected
